@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+    <title>video</title>
+    <style type="text/css">*{padding:0;margin:0;}</style>
+</head>
+<body>
+<a style="display: block;margin:10px;padding: 10px;background-color: #ccc" href="javascript:void(0)" >1111</a>
+<div>
+    <video webkit-playsinline playsinline style="width:100%"  preload="auto" src="http://videooc.tc.qq.com/vcloud1022.tc.qq.com/1022_dfb16b627330472f9c7630fc0bf59698.f0.mp4?vkey=475F46192CF942E469FA92AF7F3531AE6D7BAEA22DA1D551592DF0AA40ED54B6905B251AD3BA7F9480CC99B84F62683EE046D3236B88A3A22FF3A5F2605AC087818C2F93AC10DD71E7E89E593DB63B0D3180EACFE02F2833&amp;sha=0" id="video" type="video/mp4"></video>
+
+</div>
+<script type="text/javascript">
+    var video=document.getElementById("video")
+            ;
+    document.querySelectorAll('a')[0].onclick = function(){
+        video.play();
+        alert(4)
+    }
+    //     document.querySelectorAll('video')[0].style.width=window.innerWidth+'px';
+</script>
+</body>
+</html>
